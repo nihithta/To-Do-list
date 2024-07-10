@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.container {
+    border-radius: 10px;
+    height: 100vh;
+
+}
+
+.todos-heading {
+    text-align: center;
+    font-family: "";
+    font-size: 60px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.create-task-heading {
+    font-family: "Rubik Doodle Shadow";
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.create-task-heading-subpart {
+    font-family: "Rubik Doodle Shadow";
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.todo-items-heading {
+    font-family: "Rubik Doodle Shadow";
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.todo-items-heading-subpart {
+    font-family: "Rubik Doodle Shadow";
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.todo-items-container {
+    margin: 0px;
+    padding: 0px;
+}
+
+.todo-item-container {
+    margin-top: 15px;
+}
+
+.todo-user-input {
+    background-color: white;
+    width: 100%;
+    border-style: dotted;
+    border-width: 4px;
+    border-color: #e043a2;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.add-todo-button {
+    color: white;
+    background-color: #4c63b6;
+    font-family: "Roboto";
+    font-size: 18px;
+    border-width: 0px;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.label-container {
+    background-color: #e0bad1;
+    width: 100%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #e043a2;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 4px;
+}
+
+.checkbox-input {
+    width: 20px;
+    height: 20px;
+    margin-top: 12px;
+    margin-right: 12px;
+}
+
+.checkbox-label {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    width: 82%;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+
+.delete-icon-container {
+    text-align: right;
+    width: 18%;
+}
+
+.delete-icon {
+    padding: 15px;
+}
+
+.checked {
+    text-decoration: line-through;
+}
+
+.todo-bg-container {
+    position: relative;
+}
+
+.todo-bg-container:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    opacity: 0.4;
+    background-image: url("https://as1.ftcdn.net/v2/jpg/01/44/64/58/1000_F_144645827_s09noTFOwhpNhhc8Z7AywQSKzYnuB6ou.jpg");
+    background-repeat: repeat;
+    background-position: 100% 0;
+    background-size: cover;
+    height: 100vh;
+}
+
+.demo-content {
+    position: relative;
+}
+
+.wiki-search-header {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d5cdcd;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+
+.search-input {
+    font-size: 18px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d5cdcd;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.search-results {
+    width: 100%;
+    padding-left: 20px;
+}
+
+.result-item {
+    margin-bottom: 20px;
+    border-style: solid;
+    border-color: #e043a2;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.result-title {
+    font-size: 22px;
+}
+
+.link-description {
+    color: #444444;
+    font-size: 15px;
+}
+
+.result-url {
+    color: #006621;
+    text-decoration: none;
+}
+
+.main-container {
+    text-align: center;
+}
